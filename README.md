@@ -13,8 +13,5 @@ To get started with these solutions, you'll need to have completed the correspon
 
 To use this repository, simply clone it to your local machine and navigate to the exercise you want to review. Each exercise is located in its own folder, along with a README file that explains the requirements of the exercise and my solution to it.
 
-## Contributing
-
-While I appreciate contributions, this repository is intended to showcase my solutions to these exercises. However, if you'd like to suggest improvements to my solutions or provide feedback, please don't hesitate to open an issue in the repository.
 
 I hope you find these solutions helpful and informative as you work through The Odin Project. Happy coding!
