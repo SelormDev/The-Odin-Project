@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #23c9ff;
+  color: white;
+}
+
+.head-section {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.fa-brands {
+  margin: 0 0.5rem;
+}
+
+nav {
+  display: flex;
+  text-align: none;
+  list-style: none;
+  padding: 16px;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.nav-links:hover {
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  padding: 2rem 0 4rem 0;
+  gap: 4rem;
+}
+
+.hero_text {
+  font-size: 1.5rem;
+  margin-top: -1rem;
+}
+
+.contact_btn {
+  border: none;
+  background-color: #3882f6;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.3rem;
+  margin-top: 0.75rem;
+  color: white;
+}
+
+.contact_btn:hover {
+  cursor: pointer;
+}
+
+.hero_image {
+  width: 50%;
+  border: 2px solid white;
+  flex-shrink: 0;
+}
+
+.team {
+  margin-bottom: 3rem;
+}
+
+.team_head {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.team_card {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex: 1;
+  padding-bottom: 5rem;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #3882f6;
+  /* flex: 1; */
+}
+
+.card > p {
+  text-align: center;
+}
+
+.inspiration {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  background-color: #e5e7eb;
+  /* flex-direction: column; */
+  padding: 4rem;
+  font-size: 1.5rem;
+}
+
+.quote {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.quotee {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: end;
+  padding-right: 4rem;
+}
+
+.contact {
+  margin: 3rem auto;
+  background-color: #23c9ff;
+  max-width: 60%;
+  border-radius: 0.5rem;
+  padding: 2rem 4rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 1.5rem 4rem;
+  text-align: center;
+}
+
+.selorm {
+  text-decoration: none;
+  color: white;
+}
+
+.selorm:hover {
+  cursor: pointer;
+}
